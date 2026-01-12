@@ -6,7 +6,7 @@
   </style>
 
   <!-- Background -->
-  <image href="./ban.png" x="0" y="0" width="600" height="120" preserveAspectRatio="xMidYMid slice" />
+<image href="https://raw.githubusercontent.com/USERNAME/REPO/main/ban.png" x="0" y="0" width="600" height="120" preserveAspectRatio="xMidYMid slice" />
 
   <!-- === MASTER TIMING ===
        5 phases × 4 seconds = 20s total
