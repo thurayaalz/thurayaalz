@@ -11,15 +11,17 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
-<img width="124" alt="js" src="https://github.com/user-attachments/assets/7cbba383-4039-47a1-824c-c3aaa6e263f4" />
-<img width="124"  alt="css" src="https://github.com/user-attachments/assets/898a97e1-2ce0-44f9-94e1-bdcb5b06d1d4" />
-<img width="124"  alt="asp" src="https://github.com/user-attachments/assets/9e26c232-307d-43b7-b2e8-abdebb1c2039" />
-<img width="124"  alt="py" src="https://github.com/user-attachments/assets/f39c4521-15d2-4fd4-8a33-d576a4050980" />
-<img width="124"  alt="php" src="https://github.com/user-attachments/assets/9111c556-6b9e-4774-9f50-d7d5a0bc6d03" />
-<img width="124" alt="vb" src="https://github.com/user-attachments/assets/3f345f71-3187-4a06-a878-778b860fbe46" />
-<img width="124" src="https://github.com/user-attachments/assets/c74c2b22-d3a8-451d-b053-f54c2136cde1" />
-<img width="124"  alt="npm" src="https://github.com/user-attachments/assets/5746ac09-aef1-4a3a-bc90-f601d4209b07" />
-<img width="124"  alt="sql" src="https://github.com/user-attachments/assets/bf3aac2b-ed12-4d01-8536-bf95cc35bec4" />
+<img width="128" height="128" alt="js resized" src="https://github.com/user-attachments/assets/1379faa0-cd0f-4fb7-9cfe-5b5e74a470f8" />
+<img width="128" height="128" alt="css resized" src="https://github.com/user-attachments/assets/b815c8bb-3c2a-4a0e-a63d-7de1c3820913" />
+<img width="128" height="128" alt="asp resized" src="https://github.com/user-attachments/assets/162874a8-4af9-46c5-9744-c66dabd2cba4" />
+<img width="128" height="128" alt="sql resized" src="https://github.com/user-attachments/assets/d57247de-3160-42b5-b7a9-7f8ee4038a64" />
+<img width="128" height="128" alt="npm resized" src="https://github.com/user-attachments/assets/79fb38bf-d6e3-42b7-a517-8af3d2dc551b" />
+<img width="128" height="128" alt="ubu resized" src="https://github.com/user-attachments/assets/05965710-f9ab-4817-9b87-271db753257f" />
+<img width="128" height="128" alt="py resized" src="https://github.com/user-attachments/assets/71802396-536f-47f1-817a-7085ee1d5596" />
+<img width="128" height="128" alt="php resized" src="https://github.com/user-attachments/assets/ac6a1002-2700-4ce1-94b6-030e023efcec" />
+<img width="128" height="128" alt="vb resized" src="https://github.com/user-attachments/assets/2ce0d2f2-c3fd-43a7-b653-7587d84f66bd" />
+<img width="128" height="128" alt="ht resized" src="https://github.com/user-attachments/assets/d62422de-ca01-4781-bf3c-ffcc69bfaea5" />
+
 
 </p>
 
