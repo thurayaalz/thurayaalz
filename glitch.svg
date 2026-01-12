@@ -1,48 +1,50 @@
-<svg width="600" height="80" viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="90" viewBox="0 0 600 90" xmlns="http://www.w3.org/2000/svg">
 
-  <rect width="600" height="80" fill="#050608" />
+  <!-- BO6 dark background -->
+  <rect width="600" height="90" fill="#0A0A0A" />
 
   <!-- Glitch filter -->
   <defs>
     <filter id="glitch">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="2" result="noise" />
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" xChannelSelector="R" yChannelSelector="G" />
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" seed="8" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="G"/>
     </filter>
   </defs>
 
-  <!-- Base text -->
+  <!-- Main text (BO6 gray) -->
   <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="monospace" font-size="32" fill="#f5f5f5">
+        font-family="Courier New, monospace" font-size="36" fill="#C7C7C7">
     THURAYA ALZAHRANI
   </text>
 
-  <!-- Red offset layer -->
+  <!-- Orange glitch layer -->
   <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="monospace" font-size="32" fill="#ff004c" filter="url(#glitch)">
+        font-family="Courier New, monospace" font-size="36" fill="#FF6A00" filter="url(#glitch)">
     <animate attributeName="x"
              values="49%;51%;50%;52%;48%;50%"
-             dur="0.4s"
-             repeatCount="indefinite" />
-    THURAYA ALZAHRANI
-  </text>
-
-  <!-- Cyan offset layer -->
-  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="monospace" font-size="32" fill="#00fff7" filter="url(#glitch)">
-    <animate attributeName="x"
-             values="51%;49%;50%;48%;52%;50%"
-             dur="0.35s"
-             repeatCount="indefinite" />
-    THURAYA ALZAHRANI
-  </text>
-
-  <!-- Quick “glitch jump” on main layer -->
-  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="monospace" font-size="32" fill="#f5f5f5">
-    <animate attributeName="y"
-             values="50%;49%;50%;51%;50%"
              dur="0.25s"
              repeatCount="indefinite" />
     THURAYA ALZAHRANI
   </text>
+
+  <!-- Cyan glitch layer -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Courier New, monospace" font-size="36" fill="#00F0FF" filter="url(#glitch)">
+    <animate attributeName="x"
+             values="51%;49%;50%;48%;52%;50%"
+             dur="0.22s"
+             repeatCount="indefinite" />
+    THURAYA ALZAHRANI
+  </text>
+
+  <!-- Vertical jitter on main layer -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Courier New, monospace" font-size="36" fill="#C7C7C7">
+    <animate attributeName="y"
+             values="50%;49%;50%;51%;50%"
+             dur="0.18s"
+             repeatCount="indefinite" />
+    THURAYA ALZAHRANI
+  </text>
+
 </svg>
