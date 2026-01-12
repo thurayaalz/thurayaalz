@@ -1,14 +1,9 @@
 
 <h3>
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&color=F75C7E&lines=Hello+I'm+Thuraya;Welcome+to+my+GitHub!" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&color=FFF&lines=Hey+There!;Welcome+to+my+Humble+GitHub!" />
 </h3>
-<img width="908" height="136" alt="banner" src="https://github.com/user-attachments/assets/5e32ef21-083c-4d57-8f80-4904a1f1141f" />
+<img width="808" height="236" alt="banner" src="https://github.com/user-attachments/assets/5e32ef21-083c-4d57-8f80-4904a1f1141f" />
 <hr>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=thurayaalz&label=Profile%20views&color=0e75b6&style=flat" alt="thurayaalz" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=thurayaalz" alt="thurayaalz" /></a> </p>
-
 
 
 <h3 align="left">Languages and Tools:</h3>
