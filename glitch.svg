@@ -1,78 +1,254 @@
 <svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Background image -->
-  <image href="./ban.png"
-         x="0" y="0" width="600" height="120"
-         preserveAspectRatio="xMidYMid slice" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+    text { font-family: 'Orbitron', sans-serif; }
+  </style>
 
-  <!-- Glow behind name -->
-  <text x="50%" y="60%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Orbitron, sans-serif" font-size="25" font-weight="700"
-        letter-spacing="2px" fill="#FF6A00" opacity="0.25">
-    THURAYA
-  </text>
+  <!-- Background -->
+  <image href="./assets/bg.jpeg" x="0" y="0" width="600" height="120" preserveAspectRatio="xMidYMid slice" />
 
-  <!-- MAIN NAME (visible first 50%) -->
-  <text x="50%" y="60%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Orbitron, sans-serif" font-size="25" font-weight="700"
-        letter-spacing="2px" fill="#C7C7C7">
+  <!-- === MASTER TIMING ===
+       5 phases × 4 seconds = 20s total
+       Each phase: 0–0.2, 0.2–0.4, 0.4–0.6, 0.6–0.8, 0.8–1.0
+       Glitch bursts at boundaries: 0.2, 0.4, 0.6, 0.8, 1.0
+  -->
+
+  <!-- ========================= -->
+  <!-- PHASE 1: THURAYA          -->
+  <!-- ========================= -->
+  <text id="t1" x="50%" y="60%" text-anchor="middle" fill="#FFDDBB" font-size="25" opacity="0">
     <animate attributeName="opacity"
-             values="1;1;0;0;1"
-             keyTimes="0;0.45;0.5;0.99;1"
-             dur="7s"
+             values="1;1;0;0;0;1"
+             keyTimes="0;0.18;0.2;0.4;0.8;1"
+             dur="20s"
              repeatCount="indefinite" />
+
+    <!-- Micro jitter -->
     <animate attributeName="y"
-             values="60%;60%;55%;65%;60%;55%;65%;60%"
-             keyTimes="0;0.45;0.47;0.5;0.51;0.97;0.99;1"
-             dur="7s"
+             values="60%;59%;61%;60%"
+             keyTimes="0;0.1;0.18;0.2"
+             dur="20s"
              repeatCount="indefinite" />
     THURAYA
   </text>
 
-  <!-- ORANGE GLITCH -->
-  <text x="50%" y="60%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Orbitron, sans-serif" font-size="25" font-weight="700"
-        letter-spacing="2px" fill="#FF6A00" opacity="0">
+  <!-- Glitch layers for THURAYA -->
+  <text x="50%" y="60%" text-anchor="middle" fill="#FF6A00" font-size="25" opacity="0">
     <animate attributeName="opacity"
-             values="0;0;1;0;1;0"
-             keyTimes="0;0.45;0.47;0.5;0.97;1"
-             dur="7s"
+             values="0;0;1;0;0"
+             keyTimes="0.18;0.19;0.2;0.21;1"
+             dur="20s"
              repeatCount="indefinite" />
     <animate attributeName="x"
-             values="50%;50%;56%;44%;50%;56%;44%;50%"
-             keyTimes="0;0.45;0.47;0.5;0.97;0.99;1"
-             dur="7s"
+             values="50%;54%;46%;50%"
+             keyTimes="0.18;0.19;0.2;0.21"
+             dur="20s"
              repeatCount="indefinite" />
     THURAYA
   </text>
 
-  <!-- CYAN GLITCH -->
-  <text x="50%" y="60%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Orbitron, sans-serif" font-size="25" font-weight="700"
-        letter-spacing="2px" fill="#00F0FF" opacity="0">
+  <text x="50%" y="60%" text-anchor="middle" fill="#00F0FF" font-size="25" opacity="0">
     <animate attributeName="opacity"
-             values="0;0;1;0;1;0"
-             keyTimes="0;0.45;0.47;0.5;0.97;1"
-             dur="7s"
+             values="0;0;1;0;0"
+             keyTimes="0.18;0.19;0.2;0.21;1"
+             dur="20s"
              repeatCount="indefinite" />
     <animate attributeName="x"
-             values="50%;50%;44%;56%;50%;44%;56%;50%"
-             keyTimes="0;0.45;0.47;0.5;0.97;0.99;1"
-             dur="7s"
+             values="50%;46%;54%;50%"
+             keyTimes="0.18;0.19;0.2;0.21"
+             dur="20s"
              repeatCount="indefinite" />
     THURAYA
   </text>
 
-  <!-- HEY THERE (visible second 50%) -->
-  <text x="50%" y="60%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Orbitron, sans-serif" font-size="25" font-weight="700"
-        letter-spacing="2px" fill="#C7C7C7" opacity="0">
+  <!-- ========================= -->
+  <!-- PHASE 2: PROTOCOL INITIATED -->
+  <!-- ========================= -->
+  <text x="50%" y="60%" text-anchor="middle" fill="#FFDDBB" font-size="25" opacity="0">
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.2;0.22;0.38;0.4;1"
+             dur="20s"
+             repeatCount="indefinite" />
+
+    <!-- Micro jitter -->
+    <animate attributeName="y"
+             values="60%;59%;61%;60%"
+             keyTimes="0.2;0.25;0.35;0.38"
+             dur="20s"
+             repeatCount="indefinite" />
+    PROTOCOL INITIATED
+  </text>
+
+  <!-- Glitch at 0.4 -->
+  <text x="50%" y="60%" text-anchor="middle" fill="#FF6A00" font-size="25" opacity="0">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0.39;0.4;0.41"
+             dur="20s"
+             repeatCount="indefinite" />
+    <animate attributeName="x"
+             values="50%;54%;46%;50%"
+             keyTimes="0.39;0.4;0.41;0.42"
+             dur="20s"
+             repeatCount="indefinite" />
+    PROTOCOL INITIATED
+  </text>
+
+  <text x="50%" y="60%" text-anchor="middle" fill="#00F0FF" font-size="25" opacity="0">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0.39;0.4;0.41"
+             dur="20s"
+             repeatCount="indefinite" />
+    <animate attributeName="x"
+             values="50%;46%;54%;50%"
+             keyTimes="0.39;0.4;0.41;0.42"
+             dur="20s"
+             repeatCount="indefinite" />
+    PROTOCOL INITIATED
+  </text>
+
+  <!-- ========================= -->
+  <!-- PHASE 3: NEURAL LINK ESTABLISHED -->
+  <!-- ========================= -->
+  <text x="50%" y="60%" text-anchor="middle" fill="#FFDDBB" font-size="25" opacity="0">
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.4;0.42;0.58;0.6;1"
+             dur="20s"
+             repeatCount="indefinite" />
+
+    <animate attributeName="y"
+             values="60%;59%;61%;60%"
+             keyTimes="0.4;0.45;0.55;0.58"
+             dur="20s"
+             repeatCount="indefinite" />
+    NEURAL LINK ESTABLISHED
+  </text>
+
+  <!-- Glitch at 0.6 -->
+  <text x="50%" y="60%" text-anchor="middle" fill="#FF6A00" font-size="25" opacity="0">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0.59;0.6;0.61"
+             dur="20s"
+             repeatCount="indefinite" />
+    <animate attributeName="x"
+             values="50%;54%;46%;50%"
+             keyTimes="0.59;0.6;0.61;0.62"
+             dur="20s"
+             repeatCount="indefinite" />
+    NEURAL LINK ESTABLISHED
+  </text>
+
+  <text x="50%" y="60%" text-anchor="middle" fill="#00F0FF" font-size="25" opacity="0">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0.59;0.6;0.61"
+             dur="20s"
+             repeatCount="indefinite" />
+    <animate attributeName="x"
+             values="50%;46%;54%;50%"
+             keyTimes="0.59;0.6;0.61;0.62"
+             dur="20s"
+             repeatCount="indefinite" />
+    NEURAL LINK ESTABLISHED
+  </text>
+
+  <!-- ========================= -->
+  <!-- PHASE 4: ACCESS LEVEL OMEGA -->
+  <!-- ========================= -->
+  <text x="50%" y="60%" text-anchor="middle" fill="#FFDDBB" font-size="25" opacity="0">
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.6;0.62;0.78;0.8;1"
+             dur="20s"
+             repeatCount="indefinite" />
+
+    <animate attributeName="y"
+             values="60%;59%;61%;60%"
+             keyTimes="0.6;0.65;0.75;0.78"
+             dur="20s"
+             repeatCount="indefinite" />
+    ACCESS LEVEL OMEGA
+  </text>
+
+  <!-- Glitch at 0.8 -->
+  <text x="50%" y="60%" text-anchor="middle" fill="#FF6A00" font-size="25" opacity="0">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0.79;0.8;0.81"
+             dur="20s"
+             repeatCount="indefinite" />
+    <animate attributeName="x"
+             values="50%;54%;46%;50%"
+             keyTimes="0.79;0.8;0.81;0.82"
+             dur="20s"
+             repeatCount="indefinite" />
+    ACCESS LEVEL OMEGA
+  </text>
+
+  <text x="50%" y="60%" text-anchor="middle" fill="#00F0FF" font-size="25" opacity="0">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0.79;0.8;0.81"
+             dur="20s"
+             repeatCount="indefinite" />
+    <animate attributeName="x"
+             values="50%;46%;54%;50%"
+             keyTimes="0.79;0.8;0.81;0.82"
+             dur="20s"
+             repeatCount="indefinite" />
+    ACCESS LEVEL OMEGA
+  </text>
+
+  <!-- ========================= -->
+  <!-- PHASE 5: WELCOME HOME -->
+  <!-- ========================= -->
+  <text x="50%" y="60%" text-anchor="middle" fill="#FFDDBB" font-size="25" opacity="0">
     <animate attributeName="opacity"
              values="0;0;1;1;0"
-             keyTimes="0;0.5;0.55;0.97;1"
-             dur="7s"
+             keyTimes="0;0.8;0.82;0.98;1"
+             dur="20s"
              repeatCount="indefinite" />
-    HEY THERE
+
+    <animate attributeName="y"
+             values="60%;59%;61%;60%"
+             keyTimes="0.8;0.85;0.95;0.98"
+             dur="20s"
+             repeatCount="indefinite" />
+    WELCOME HOME
+  </text>
+
+  <!-- Glitch at loop (1.0) -->
+  <text x="50%" y="60%" text-anchor="middle" fill="#FF6A00" font-size="25" opacity="0">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0.99;1;1"
+             dur="20s"
+             repeatCount="indefinite" />
+    <animate attributeName="x"
+             values="50%;54%;46%;50%"
+             keyTimes="0.99;1;1"
+             dur="20s"
+             repeatCount="indefinite" />
+    WELCOME HOME
+  </text>
+
+  <text x="50%" y="60%" text-anchor="middle" fill="#00F0FF" font-size="25" opacity="0">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             keyTimes="0.99;1;1"
+             dur="20s"
+             repeatCount="indefinite" />
+    <animate attributeName="x"
+             values="50%;46%;54%;50%"
+             keyTimes="0.99;1;1"
+             dur="20s"
+             repeatCount="indefinite" />
+    WELCOME HOME
   </text>
 
 </svg>
