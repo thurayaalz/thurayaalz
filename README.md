@@ -1,8 +1,8 @@
 
-<h3>
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&color=FFF&lines=Hey+There!;Welcome+to+my+Humble+GitHub!" />
+<h3 align="center">
+  <img src="./glitch.svg" alt="Glitch text - Thuraya Alzahrani">
 </h3>
-<img width="808" height="236" alt="banner" src="https://github.com/user-attachments/assets/5e32ef21-083c-4d57-8f80-4904a1f1141f" />
+
 <hr>
 
 
