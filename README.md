@@ -11,12 +11,12 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
-<img width="524"  alt="py" src="https://github.com/user-attachments/assets/f39c4521-15d2-4fd4-8a33-d576a4050980" />
-<img width="524"  alt="php" src="https://github.com/user-attachments/assets/9111c556-6b9e-4774-9f50-d7d5a0bc6d03" />
-<img width="524" alt="vb" src="https://github.com/user-attachments/assets/3f345f71-3187-4a06-a878-778b860fbe46" />
-<img width="524" src="https://github.com/user-attachments/assets/c74c2b22-d3a8-451d-b053-f54c2136cde1" />
-<img width="524"  alt="npm" src="https://github.com/user-attachments/assets/5746ac09-aef1-4a3a-bc90-f601d4209b07" />
-<img width="524"  alt="sql" src="https://github.com/user-attachments/assets/bf3aac2b-ed12-4d01-8536-bf95cc35bec4" />
+<img width="124"  alt="py" src="https://github.com/user-attachments/assets/f39c4521-15d2-4fd4-8a33-d576a4050980" />
+<img width="124"  alt="php" src="https://github.com/user-attachments/assets/9111c556-6b9e-4774-9f50-d7d5a0bc6d03" />
+<img width="124" alt="vb" src="https://github.com/user-attachments/assets/3f345f71-3187-4a06-a878-778b860fbe46" />
+<img width="124" src="https://github.com/user-attachments/assets/c74c2b22-d3a8-451d-b053-f54c2136cde1" />
+<img width="124"  alt="npm" src="https://github.com/user-attachments/assets/5746ac09-aef1-4a3a-bc90-f601d4209b07" />
+<img width="124"  alt="sql" src="https://github.com/user-attachments/assets/bf3aac2b-ed12-4d01-8536-bf95cc35bec4" />
 
 </p>
 
