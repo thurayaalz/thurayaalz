@@ -1,13 +1,15 @@
-<img width="1108" height="136" alt="banner" src="https://github.com/user-attachments/assets/5e32ef21-083c-4d57-8f80-4904a1f1141f" />
+
+<h3>
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&color=F75C7E&lines=Hello+I'm+Thuraya;Welcome+to+my+GitHub!" />
+</h3>
+<img width="908" height="136" alt="banner" src="https://github.com/user-attachments/assets/5e32ef21-083c-4d57-8f80-4904a1f1141f" />
+<hr>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thurayaalz&label=Profile%20views&color=0e75b6&style=flat" alt="thurayaalz" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=thurayaalz" alt="thurayaalz" /></a> </p>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/thurayaalz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thurayaalz" height="30" width="40" /></a>
-</p>
+
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
@@ -25,7 +27,10 @@
 
 
 </p>
-
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/thurayaalz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thurayaalz" height="30" width="40" /></a>
+</p>
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=thurayaalz&show_icons=true&locale=en&layout=compact" alt="thurayaalz" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=thurayaalz&show_icons=true&locale=en" alt="thurayaalz" /></p>
