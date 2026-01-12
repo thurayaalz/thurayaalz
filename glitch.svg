@@ -1,20 +1,51 @@
-<svg width="600" height="90" viewBox="0 0 600 90" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background image -->
-  <image href="./bab.png" x="0" y="0" width="600" height="90" preserveAspectRatio="xMidYMid slice" />
+<svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Glitch text layers -->
-  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Courier New, monospace" font-size="36" fill="#C7C7C7">
+  <!-- Background image -->
+  <image href="./assets/bg.jpeg"
+         x="0" y="0" width="600" height="120"
+         preserveAspectRatio="xMidYMid slice" />
+
+  <!-- Soft glow behind text -->
+  <text x="50%" y="58%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Courier New, monospace" font-size="40"
+        fill="#FF6A00" opacity="0.25">
+    THURAYA ALZAHRANI
+  </text>
+
+  <!-- Main text (steel gray) with vertical jitter -->
+  <text x="50%" y="58%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Courier New, monospace" font-size="40"
+        fill="#C7C7C7">
+    <animate attributeName="y"
+             values="58%;58%;57%;58%;59%;58%"
+             keyTimes="0;0.75;0.78;0.82;0.86;1"
+             dur="3s"
+             repeatCount="indefinite" />
     THURAYA 
   </text>
-  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Courier New, monospace" font-size="36" fill="#FF6A00" opacity="0.6">
-    <animate attributeName="x" values="49%;51%;50%" dur="0.5s" repeatCount="indefinite" />
+
+  <!-- Orange glitch layer -->
+  <text x="50%" y="58%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Courier New, monospace" font-size="40"
+        fill="#FF6A00" opacity="0.7">
+    <animate attributeName="x"
+             values="50%;50%;50.8%;49.2%;50%;50%"
+             keyTimes="0;0.7;0.75;0.8;0.85;1"
+             dur="3s"
+             repeatCount="indefinite" />
     THURAYA 
   </text>
-  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Courier New, monospace" font-size="36" fill="#00F0FF" opacity="0.5">
-    <animate attributeName="x" values="51%;49%;50%" dur="0.3s" repeatCount="indefinite" />
+
+  <!-- Cyan glitch layer -->
+  <text x="50%" y="58%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Courier New, monospace" font-size="40"
+        fill="#00F0FF" opacity="0.6">
+    <animate attributeName="x"
+             values="50%;50%;49.2%;50.8%;50%;50%"
+             keyTimes="0;0.7;0.75;0.8;0.85;1"
+             dur="3s"
+             repeatCount="indefinite" />
     THURAYA 
   </text>
+
 </svg>
