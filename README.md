@@ -1,5 +1,4 @@
-<img width="1408" height="736" alt="banner" src="https://github.com/user-attachments/assets/5e32ef21-083c-4d57-8f80-4904a1f1141f" />
-<h3 align="center">A passionate frontend developer from India</h3>
+<img width="1408" height="336" alt="banner" src="https://github.com/user-attachments/assets/5e32ef21-083c-4d57-8f80-4904a1f1141f" />
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thurayaalz&label=Profile%20views&color=0e75b6&style=flat" alt="thurayaalz" /> </p>
 
