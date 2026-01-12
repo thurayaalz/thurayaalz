@@ -11,16 +11,17 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
-<img width="128" height="128" alt="js resized" src="https://github.com/user-attachments/assets/1379faa0-cd0f-4fb7-9cfe-5b5e74a470f8" />
-<img width="128" height="128" alt="css resized" src="https://github.com/user-attachments/assets/b815c8bb-3c2a-4a0e-a63d-7de1c3820913" />
-<img width="128" height="128" alt="asp resized" src="https://github.com/user-attachments/assets/162874a8-4af9-46c5-9744-c66dabd2cba4" />
-<img width="128" height="128" alt="sql resized" src="https://github.com/user-attachments/assets/d57247de-3160-42b5-b7a9-7f8ee4038a64" />
-<img width="128" height="128" alt="npm resized" src="https://github.com/user-attachments/assets/79fb38bf-d6e3-42b7-a517-8af3d2dc551b" />
-<img width="128" height="128" alt="ubu resized" src="https://github.com/user-attachments/assets/05965710-f9ab-4817-9b87-271db753257f" />
-<img width="128" height="128" alt="py resized" src="https://github.com/user-attachments/assets/71802396-536f-47f1-817a-7085ee1d5596" />
-<img width="128" height="128" alt="php resized" src="https://github.com/user-attachments/assets/ac6a1002-2700-4ce1-94b6-030e023efcec" />
-<img width="128" height="128" alt="vb resized" src="https://github.com/user-attachments/assets/2ce0d2f2-c3fd-43a7-b653-7587d84f66bd" />
-<img width="128" height="128" alt="ht resized" src="https://github.com/user-attachments/assets/d62422de-ca01-4781-bf3c-ffcc69bfaea5" />
+
+<img width="124" alt="ht" src="https://github.com/user-attachments/assets/07930f6f-1892-47ec-bc68-8a6f95114f88" />
+<img width="124" alt="py" src="https://github.com/user-attachments/assets/fca6320e-881c-428c-963e-ec7ed0cc5675" />
+<img width="124" alt="ubu" src="https://github.com/user-attachments/assets/942c07c1-4393-43d0-85cc-09d3334ee64e" />
+<img width="124" alt="npm" src="https://github.com/user-attachments/assets/e88d194a-f150-43b1-9978-95b4b312697a" />
+<img width="124"  alt="vb" src="https://github.com/user-attachments/assets/a4c11760-b5ca-4648-96bc-2f66e5a13d70" />
+<img width="124"  alt="asp" src="https://github.com/user-attachments/assets/2aaee80f-5c8b-473b-8c7b-372e98be6c2a" />
+<img width="124" alt="php" src="https://github.com/user-attachments/assets/4e7f621f-6c57-4bb9-8b2d-3774112601a3" />
+<img width="124"  alt="sql" src="https://github.com/user-attachments/assets/1e54f0ee-166a-4ce8-8cba-c41d77d9d355" />
+<img width="124"  alt="js" src="https://github.com/user-attachments/assets/0d17f71c-7be0-4cc7-81b5-ec3ac711d635" />
+<img width="124"  alt="css" src="https://github.com/user-attachments/assets/eea5174d-d166-4307-9cba-889e411b37db" />
 
 
 </p>
