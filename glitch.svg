@@ -1,7 +1,7 @@
 <svg width="600" height="140" viewBox="0 0 600 140" xmlns="http://www.w3.org/2000/svg">
 
   <!-- Background image -->
-  <image href="./assets/bg.jpeg"
+  <image href="ban.png"
          x="0" y="0" width="600" height="140"
          preserveAspectRatio="xMidYMid slice" />
 
