@@ -11,7 +11,7 @@
     </filter>
   </defs>
 
-  <!-- Main text (BO6 gray) -->
+  <!-- Main text (steel gray) -->
   <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
         font-family="Courier New, monospace" font-size="36" fill="#C7C7C7">
     THURAYA ALZAHRANI
