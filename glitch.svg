@@ -22,7 +22,7 @@
         font-family="Courier New, monospace" font-size="36" fill="#FF6A00" filter="url(#glitch)">
     <animate attributeName="x"
              values="49%;51%;50%;52%;48%;50%"
-             dur="0.25s"
+             dur="0.45s"
              repeatCount="indefinite" />
     THURAYA ALZAHRANI
   </text>
@@ -42,7 +42,7 @@
         font-family="Courier New, monospace" font-size="36" fill="#C7C7C7">
     <animate attributeName="y"
              values="50%;49%;50%;51%;50%"
-             dur="0.18s"
+             dur="0.48s"
              repeatCount="indefinite" />
     THURAYA ALZAHRANI
   </text>
