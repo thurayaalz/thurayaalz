@@ -1,50 +1,20 @@
 <svg width="600" height="90" viewBox="0 0 600 90" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background image -->
+  <image href="./bab.png" x="0" y="0" width="600" height="90" preserveAspectRatio="xMidYMid slice" />
 
-  <!-- BO6 dark background -->
-  <rect width="600" height="90" fill="#0A0A0A" />
-
-  <!-- Glitch filter -->
-  <defs>
-    <filter id="glitch">
-      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" seed="8" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="G"/>
-    </filter>
-  </defs>
-
-  <!-- Main text (steel gray) -->
+  <!-- Glitch text layers -->
   <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
         font-family="Courier New, monospace" font-size="36" fill="#C7C7C7">
-    THURAYA ALZAHRANI
+    THURAYA 
   </text>
-
-  <!-- Orange glitch layer -->
   <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Courier New, monospace" font-size="36" fill="#FF6A00" filter="url(#glitch)">
-    <animate attributeName="x"
-             values="49%;51%;50%;52%;48%;50%"
-             dur="0.45s"
-             repeatCount="indefinite" />
-    THURAYA ALZAHRANI
+        font-family="Courier New, monospace" font-size="36" fill="#FF6A00" opacity="0.6">
+    <animate attributeName="x" values="49%;51%;50%" dur="0.5s" repeatCount="indefinite" />
+    THURAYA 
   </text>
-
-  <!-- Cyan glitch layer -->
   <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Courier New, monospace" font-size="36" fill="#00F0FF" filter="url(#glitch)">
-    <animate attributeName="x"
-             values="51%;49%;50%;48%;52%;50%"
-             dur="0.22s"
-             repeatCount="indefinite" />
-    THURAYA ALZAHRANI
+        font-family="Courier New, monospace" font-size="36" fill="#00F0FF" opacity="0.5">
+    <animate attributeName="x" values="51%;49%;50%" dur="0.3s" repeatCount="indefinite" />
+    THURAYA 
   </text>
-
-  <!-- Vertical jitter on main layer -->
-  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Courier New, monospace" font-size="36" fill="#C7C7C7">
-    <animate attributeName="y"
-             values="50%;49%;50%;51%;50%"
-             dur="0.48s"
-             repeatCount="indefinite" />
-    THURAYA ALZAHRANI
-  </text>
-
 </svg>
