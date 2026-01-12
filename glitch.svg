@@ -1,11 +1,4 @@
 <svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
-
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
-    text { font-family: 'Orbitron', sans-serif; }
-  </style>
-
-
   <!-- === MASTER TIMING ===
        5 phases × 4 seconds = 20s total
        Each phase: 0–0.2, 0.2–0.4, 0.4–0.6, 0.6–0.8, 0.8–1.0
@@ -248,5 +241,4 @@
              repeatCount="indefinite" />
     WELCOME HOME
   </text>
-
 </svg>
