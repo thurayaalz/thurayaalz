@@ -5,8 +5,6 @@
     text { font-family: 'Orbitron', sans-serif; }
   </style>
 
-  <!-- Background -->
-<image href="https://raw.githubusercontent.com/thurayaalz/REPO/main/ban.png" x="0" y="0" width="600" height="120" preserveAspectRatio="xMidYMid slice" />
 
   <!-- === MASTER TIMING ===
        5 phases × 4 seconds = 20s total
