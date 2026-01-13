@@ -29,12 +29,12 @@
     <!-- Main stable text -->
     <text id="phase1_main" x="0" y="0" opacity="0">
       <!-- Visibility window: 0s → 4s -->
-      <animate attributeName="opacity"
-               values="1;1;0"
-               keyTimes="0;0.9;1"
-               dur="4s"
-               begin="0s"
-               repeatCount="indefinite" />
+     <animate attributeName="opacity"
+         values="1;1;0;0;0"
+         keyTimes="0;0.9;1;1;1"
+         dur="20s"
+         begin="0s"
+         repeatCount="indefinite" />
 
       <!-- Micro‑jitter inside phase -->
       <animate attributeName="y"
@@ -53,12 +53,12 @@
 
     <!-- Orange layer -->
     <text id="phase1_glitch_orange" x="0" y="0" fill="#FF6A00" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;0"
-               keyTimes="0;0.5;1"
-               dur="0.4s"
-               begin="3.6s"
-               repeatCount="indefinite" />
+    <animate attributeName="opacity"
+         values="0;0;1;1;0"
+         keyTimes="0;0.19;0.2;0.39;0.4"
+         dur="20s"
+         begin="0s"
+         repeatCount="indefinite" />
 
       <animate attributeName="x"
                values="0;20;-15;10;-10;0"
@@ -79,12 +79,13 @@
 
     <!-- Cyan layer -->
     <text id="phase1_glitch_cyan" x="0" y="0" fill="#00F0FF" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;0"
-               keyTimes="0;0.5;1"
-               dur="0.4s"
-               begin="3.6s"
-               repeatCount="indefinite" />
+   <animate attributeName="opacity"
+         values="0;0;0;1;1;0"
+         keyTimes="0;0.39;0.4;0.59;0.6;0.79"
+         dur="20s"
+         begin="0s"
+         repeatCount="indefinite" />
+
 
       <animate attributeName="x"
                values="0;-20;15;-10;10;0"
@@ -109,11 +110,12 @@
     <!-- Main stable text -->
     <text id="phase2_main" x="0" y="0" opacity="0">
       <animate attributeName="opacity"
-               values="0;1;1;0"
-               keyTimes="0;0.05;0.9;1"
-               dur="4s"
-               begin="4s"
-               repeatCount="indefinite" />
+         values="0;0;0;0;1;1;0"
+         keyTimes="0;0.59;0.6;0.79;0.8;0.99;1"
+         dur="20s"
+         begin="0s"
+         repeatCount="indefinite" />
+
 
       <animate attributeName="y"
                values="0;-2;2;0"
@@ -126,12 +128,12 @@
     </text>
     <!-- Glitch burst — orange -->
     <text id="phase2_glitch_orange" x="0" y="0" fill="#FF6A00" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;0"
-               keyTimes="0;0.5;1"
-               dur="0.4s"
-               begin="7.6s"
-               repeatCount="indefinite" />
+     <animate attributeName="opacity"
+         values="0;0;0;0;0;1;1;0"
+         keyTimes="0;0.79;0.8;0.99;1"
+         dur="20s"
+         begin="0s"
+         repeatCount="indefinite" />
 
       <animate attributeName="x"
                values="0;20;-15;10;-10;0"
