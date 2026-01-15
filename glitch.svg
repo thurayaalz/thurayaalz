@@ -12,7 +12,6 @@ src: url(data:font/woff2;base64,d09GMgABAAAAAAm4ABAAAAAAB7wAAANfAAEAAAAAAAAAAAAA
 
 text {
   font-family: 'Orbitron', sans-serif;
-  color: #ffeda8;
   font-size: 25px;
   text-anchor: middle;
 }
