@@ -23,7 +23,7 @@ text {
 <g id="container" transform="translate(300, 70)">
 
 <!-- PHASE 1 — THURAYA -->
-<text x="0" y="0">
+<text x="0" y="0"  fill="#efeaee">
   <animate attributeName="opacity"
            dur="20s"
            begin="0s"
@@ -80,8 +80,7 @@ text {
 </text>
 
 <!-- PHASE 2 — PROTOCOL INITIATED -->
-<text x="0" y="0">
-  <!-- يظهر فقط بين 4s → 8s -->
+<text x="0" y="0"  fill="#efeaee">
   <animate attributeName="opacity"
            dur="20s"
            begin="0s"
@@ -89,7 +88,6 @@ text {
            values="0;0;1;1;0;0"
            keyTimes="0;0.19;0.2;0.39;0.4;1" />
 
-  <!-- micro jitter داخل الفيز -->
   <animate attributeName="y"
            dur="20s"
            begin="0s"
@@ -102,7 +100,6 @@ text {
 
 <!-- PHASE 2 GLITCH ORANGE -->
 <text x="0" y="0" fill="#FF6A00">
-  <!-- glitch يظهر فقط عند نهاية 4s → بداية 8s -->
   <animate attributeName="opacity"
            dur="20s"
            begin="0s"
@@ -141,7 +138,7 @@ text {
 </text>
 
 <!-- PHASE 3 — MAIN -->
-<text x="0" y="0">
+<text x="0" y="0"  fill="#efeaee">
   <animate attributeName="opacity"
            dur="20s"
            begin="0s"
@@ -199,7 +196,7 @@ text {
 
 
 <!-- PHASE 4 — MAIN -->
-<text x="0" y="0">
+<text x="0" y="0"  fill="#efeaee">
   <animate attributeName="opacity"
            dur="20s"
            begin="0s"
@@ -256,7 +253,7 @@ text {
 </text>
 
 <!-- PHASE 5 — MAIN -->
-<text x="0" y="0">
+<text x="0" y="0"  fill="#efeaee">
   <animate attributeName="opacity"
            dur="20s"
            begin="0s"
