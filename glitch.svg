@@ -22,370 +22,295 @@
   <!-- BASE POSITION             -->
   <!-- ========================= -->
   <g id="container" transform="translate(300, 70)">
-    <!-- ========================= -->
-    <!-- PHASE 1 — THURAYA         -->
-    <!-- ========================= -->
+  
+<!-- PHASE 1 — THURAYA -->
+<text x="0" y="0">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="1;1;0;0;0;0"
+           keyTimes="0;0.19;0.2;0.4;0.8;1" />
 
-    <!-- Main stable text -->
-    <text id="phase1_main" x="0" y="0" opacity="0">
-      <!-- Visibility window: 0s → 4s -->
-     <animate attributeName="opacity"
-         values="1;1;0;0;0"
-         keyTimes="0;0.9;1;1;1"
-         dur="20s"
-         begin="0s"
-         repeatCount="indefinite" />
+  <animate attributeName="y"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;-2;2;0;0"
+           keyTimes="0;0.19;0.25;0.35;0.4;1" />
 
-      <!-- Micro‑jitter inside phase -->
-      <animate attributeName="y"
-               values="0;-2;2;0"
-               keyTimes="0;0.3;0.6;1"
-               dur="4s"
-               begin="0s"
-               repeatCount="indefinite" />
+  THURAYA
+</text>
 
-      THURAYA
-    </text>
+<!-- PHASE 1 GLITCH ORANGE -->
+<text x="0" y="0" fill="#FF6A00">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;1;0;0;0"
+           keyTimes="0;0.17;0.19;0.21;0.4;1" />
 
-    <!-- ========================= -->
-    <!-- GLITCH BURST (HEAVY)      -->
-    <!-- ========================= -->
+  <animate attributeName="x"
+           dur="0.4s"
+           begin="3.6s"
+           repeatCount="indefinite"
+           values="0;20;-15;10;-10;0"
+           keyTimes="0;0.2;0.4;0.6;0.8;1" />
 
-    <!-- Orange layer -->
-    <text id="phase1_glitch_orange" x="0" y="0" fill="#FF6A00" opacity="0">
-    <animate attributeName="opacity"
-         values="0;0;1;1;0"
-         keyTimes="0;0.19;0.2;0.39;0.4"
-         dur="20s"
-         begin="0s"
-         repeatCount="indefinite" />
+  THURAYA
+</text>
 
-      <animate attributeName="x"
-               values="0;20;-15;10;-10;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="3.6s"
-               repeatCount="indefinite" />
+<!-- PHASE 1 GLITCH CYAN -->
+<text x="0" y="0" fill="#00F0FF">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;1;0;0;0"
+           keyTimes="0;0.17;0.19;0.21;0.4;1" />
 
-      <animate attributeName="y"
-               values="0;-10;10;-5;5;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="3.6s"
-               repeatCount="indefinite" />
+  <animate attributeName="x"
+           dur="0.4s"
+           begin="3.6s"
+           repeatCount="indefinite"
+           values="0;-20;15;-10;10;0"
+           keyTimes="0;0.2;0.4;0.6;0.8;1" />
 
-      THURAYA
-    </text>
+  THURAYA
+</text>
 
-    <!-- Cyan layer -->
-    <text id="phase1_glitch_cyan" x="0" y="0" fill="#00F0FF" opacity="0">
-   <animate attributeName="opacity"
-         values="0;0;0;1;1;0"
-         keyTimes="0;0.39;0.4;0.59;0.6;0.79"
-         dur="20s"
-         begin="0s"
-         repeatCount="indefinite" />
+<!-- PHASE 2 — PROTOCOL INITIATED -->
+<text x="0" y="0">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;1;1;0;0"
+           keyTimes="0;0.19;0.2;0.39;0.4;1" />
 
+  <!-- micro jitter داخل الفيز -->
+  <animate attributeName="y"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;-2;2;0;0"
+           keyTimes="0;0.19;0.25;0.35;0.4;1" />
 
-      <animate attributeName="x"
-               values="0;-20;15;-10;10;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="3.6s"
-               repeatCount="indefinite" />
+  PROTOCOL INITIATED
+</text>
 
-      <animate attributeName="y"
-               values="0;10;-10;5;-5;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="3.6s"
-               repeatCount="indefinite" />
+<!-- PHASE 2 GLITCH ORANGE -->
+<text x="0" y="0" fill="#FF6A00">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;1;0;0;0"
+           keyTimes="0;0.37;0.39;0.41;0.8;1" />
 
-      THURAYA
-    </text>
-    <!-- ========================= -->
-    <!-- PHASE 2 — PROTOCOL INITIATED -->
-    <!-- ========================= -->
+  <!-- jitter -->
+  <animate attributeName="x"
+           dur="0.4s"
+           begin="7.6s"
+           repeatCount="indefinite"
+           values="0;20;-15;10;-10;0"
+           keyTimes="0;0.2;0.4;0.6;0.8;1" />
 
-    <!-- Main stable text -->
-    <text id="phase2_main" x="0" y="0" opacity="0">
-      <animate attributeName="opacity"
-         values="0;0;0;0;1;1;0"
-         keyTimes="0;0.59;0.6;0.79;0.8;0.99;1"
-         dur="20s"
-         begin="0s"
-         repeatCount="indefinite" />
+  PROTOCOL INITIATED
+</text>
 
+<!-- PHASE 2 GLITCH CYAN -->
+<text x="0" y="0" fill="#00F0FF">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;1;0;0;0"
+           keyTimes="0;0.37;0.39;0.41;0.8;1" />
 
-      <animate attributeName="y"
-               values="0;-2;2;0"
-               keyTimes="0;0.3;0.6;1"
-               dur="4s"
-               begin="4s"
-               repeatCount="indefinite" />
+  <animate attributeName="x"
+           dur="0.4s"
+           begin="7.6s"
+           repeatCount="indefinite"
+           values="0;-20;15;-10;10;0"
+           keyTimes="0;0.2;0.4;0.6;0.8;1" />
 
-      PROTOCOL INITIATED
-    </text>
-    <!-- Glitch burst — orange -->
-    <text id="phase2_glitch_orange" x="0" y="0" fill="#FF6A00" opacity="0">
-     <animate attributeName="opacity"
-         values="0;0;0;0;0;1;1;0"
-         keyTimes="0;0.79;0.8;0.99;1"
-         dur="20s"
-         begin="0s"
-         repeatCount="indefinite" />
+  PROTOCOL INITIATED
+</text>
 
-      <animate attributeName="x"
-               values="0;20;-15;10;-10;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="7.6s"
-               repeatCount="indefinite" />
+<!-- PHASE 3 — NEURAL LINK ESTABLISHED -->
+<text x="0" y="0">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;0;1;1;0;0"
+           keyTimes="0;0.39;0.4;0.59;0.6;0.79;0.8" />
 
-      <animate attributeName="y"
-               values="0;-10;10;-5;5;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="7.6s"
-               repeatCount="indefinite" />
+  <animate attributeName="y"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;0;-2;2;0;0"
+           keyTimes="0;0.39;0.4;0.5;0.59;0.6;1" />
 
-      PROTOCOL INITIATED
-    </text>
-    <!-- Glitch burst — cyan -->
-    <text id="phase2_glitch_cyan" x="0" y="0" fill="#00F0FF" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;0"
-               keyTimes="0;0.5;1"
-               dur="0.4s"
-               begin="7.6s"
-               repeatCount="indefinite" />
+  NEURAL LINK ESTABLISHED
+</text>
 
-      <animate attributeName="x"
-               values="0;-20;15;-10;10;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="7.6s"
-               repeatCount="indefinite" />
+<!-- PHASE 3 GLITCH ORANGE -->
+<text x="0" y="0" fill="#FF6A00">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;0;1;0;0;0"
+           keyTimes="0;0.37;0.39;0.41;0.59;0.8;1" />
 
-      <animate attributeName="y"
-               values="0;10;-10;5;-5;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="7.6s"
-               repeatCount="indefinite" />
+  <!-- jitter -->
+  <animate attributeName="x"
+           dur="0.4s"
+           begin="11.6s"
+           repeatCount="indefinite"
+           values="0;20;-15;10;-10;0"
+           keyTimes="0;0.2;0.4;0.6;0.8;1" />
 
-      PROTOCOL INITIATED
-    </text>
-    <!-- ========================= -->
-    <!-- PHASE 3 — NEURAL LINK ESTABLISHED -->
-    <!-- ========================= -->
+  NEURAL LINK ESTABLISHED
+</text>
 
-    <text id="phase3_main" x="0" y="0" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;1;0"
-               keyTimes="0;0.05;0.9;1"
-               dur="4s"
-               begin="8s"
-               repeatCount="indefinite" />
+<!-- PHASE 3 GLITCH CYAN -->
+<text x="0" y="0" fill="#00F0FF">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;0;1;0;0;0"
+           keyTimes="0;0.37;0.39;0.41;0.59;0.8;1" />
 
-      <animate attributeName="y"
-               values="0;-2;2;0"
-               keyTimes="0;0.3;0.6;1"
-               dur="4s"
-               begin="8s"
-               repeatCount="indefinite" />
+  <animate attributeName="x"
+           dur="0.4s"
+           begin="11.6s"
+           repeatCount="indefinite"
+           values="0;-20;15;-10;10;0"
+           keyTimes="0;0.2;0.4;0.6;0.8;1" />
 
-      NEURAL LINK ESTABLISHED
-    </text>
-    <text id="phase3_glitch_orange" x="0" y="0" fill="#FF6A00" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;0"
-               keyTimes="0;0.5;1"
-               dur="0.4s"
-               begin="11.6s"
-               repeatCount="indefinite" />
+  NEURAL LINK ESTABLISHED
+</text>
+  
+<!-- PHASE 4 — ACCESS LEVEL OMEGA -->
+<text x="0" y="0">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;0;0;1;1;0;0"
+           keyTimes="0;0.59;0.6;0.79;0.8;0.99;1;1" />
 
-      <animate attributeName="x"
-               values="0;20;-15;10;-10;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="11.6s"
-               repeatCount="indefinite" />
+  <animate attributeName="y"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;0;0;-2;2;0;0"
+           keyTimes="0;0.59;0.6;0.7;0.79;0.8;0.99;1" />
 
-      <animate attributeName="y"
-               values="0;-10;10;-5;5;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="11.6s"
-               repeatCount="indefinite" />
+  ACCESS LEVEL OMEGA
+</text>
 
-      NEURAL LINK ESTABLISHED
-    </text>
-    <text id="phase3_glitch_cyan" x="0" y="0" fill="#00F0FF" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;0"
-               keyTimes="0;0.5;1"
-               dur="0.4s"
-               begin="11.6s"
-               repeatCount="indefinite" />
+<!-- PHASE 4 GLITCH ORANGE -->
+<text x="0" y="0" fill="#FF6A00">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;0;1;0;0;0"
+           keyTimes="0;0.57;0.59;0.61;0.79;0.99;1" />
 
-      <animate attributeName="x"
-               values="0;-20;15;-10;10;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="11.6s"
-               repeatCount="indefinite" />
+  <!-- jitter -->
+  <animate attributeName="x"
+           dur="0.4s"
+           begin="15.6s"
+           repeatCount="indefinite"
+           values="0;20;-15;10;-10;0"
+           keyTimes="0;0.2;0.4;0.6;0.8;1" />
 
-      <animate attributeName="y"
-               values="0;10;-10;5;-5;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="11.6s"
-               repeatCount="indefinite" />
+  ACCESS LEVEL OMEGA
+</text>
 
-      NEURAL LINK ESTABLISHED
-    </text>
-    <!-- ========================= -->
-    <!-- PHASE 4 — ACCESS LEVEL OMEGA -->
-    <!-- ========================= -->
+<!-- PHASE 4 GLITCH CYAN -->
+<text x="0" y="0" fill="#00F0FF">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;0;1;0;0;0"
+           keyTimes="0;0.57;0.59;0.61;0.79;0.99;1" />
 
-    <text id="phase4_main" x="0" y="0" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;1;0"
-               keyTimes="0;0.05;0.9;1"
-               dur="4s"
-               begin="12s"
-               repeatCount="indefinite" />
+  <animate attributeName="x"
+           dur="0.4s"
+           begin="15.6s"
+           repeatCount="indefinite"
+           values="0;-20;15;-10;10;0"
+           keyTimes="0;0.2;0.4;0.6;0.8;1" />
 
-      <animate attributeName="y"
-               values="0;-2;2;0"
-               keyTimes="0;0.3;0.6;1"
-               dur="4s"
-               begin="12s"
-               repeatCount="indefinite" />
+  ACCESS LEVEL OMEGA
+</text>
 
-      ACCESS LEVEL OMEGA
-    </text>
-    <text id="phase4_glitch_orange" x="0" y="0" fill="#FF6A00" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;0"
-               keyTimes="0;0.5;1"
-               dur="0.4s"
-               begin="15.6s"
-               repeatCount="indefinite" />
+<!-- PHASE 5 — WELCOME HOME -->
+<text x="0" y="0">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;0;0;1;1;0"
+           keyTimes="0;0.79;0.8;0.99;1;1;1" />
 
-      <animate attributeName="x"
-               values="0;20;-15;10;-10;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="15.6s"
-               repeatCount="indefinite" />
+  <animate attributeName="y"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;0;0;-2;2;0"
+           keyTimes="0;0.79;0.8;0.9;0.99;1;1" />
 
-      <animate attributeName="y"
-               values="0;-10;10;-5;5;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="15.6s"
-               repeatCount="indefinite" />
+  WELCOME HOME
+</text>
 
-      ACCESS LEVEL OMEGA
-    </text>
-    <text id="phase4_glitch_cyan" x="0" y="0" fill="#00F0FF" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;0"
-               keyTimes="0;0.5;1"
-               dur="0.4s"
-               begin="15.6s"
-               repeatCount="indefinite" />
+<!-- PHASE 5 GLITCH ORANGE -->
+<text x="0" y="0" fill="#FF6A00">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;0;0;1;0;0"
+           keyTimes="0;0.77;0.79;0.81;0.99;1;1" />
 
-      <animate attributeName="x"
-               values="0;-20;15;-10;10;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="15.6s"
-               repeatCount="indefinite" />
+  <!-- jitter -->
+  <animate attributeName="x"
+           dur="0.4s"
+           begin="19.6s"
+           repeatCount="indefinite"
+           values="0;20;-15;10;-10;0"
+           keyTimes="0;0.2;0.4;0.6;0.8;1" />
 
-      <animate attributeName="y"
-               values="0;10;-10;5;-5;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="15.6s"
-               repeatCount="indefinite" />
+  WELCOME HOME
+</text>
 
-      ACCESS LEVEL OMEGA
-    </text>
-    <!-- ========================= -->
-    <!-- PHASE 5 — WELCOME HOME -->
-    <!-- ========================= -->
+<!-- PHASE 5 GLITCH CYAN -->
+<text x="0" y="0" fill="#00F0FF">
+  <animate attributeName="opacity"
+           dur="20s"
+           begin="0s"
+           repeatCount="indefinite"
+           values="0;0;0;0;1;0;0"
+           keyTimes="0;0.77;0.79;0.81;0.99;1;1" />
 
-    <text id="phase5_main" x="0" y="0" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;1;0"
-               keyTimes="0;0.05;0.9;1"
-               dur="4s"
-               begin="16s"
-               repeatCount="indefinite" />
+  <animate attributeName="x"
+           dur="0.4s"
+           begin="19.6s"
+           repeatCount="indefinite"
+           values="0;-20;15;-10;10;0"
+           keyTimes="0;0.2;0.4;0.6;0.8;1" />
 
-      <animate attributeName="y"
-               values="0;-2;2;0"
-               keyTimes="0;0.3;0.6;1"
-               dur="4s"
-               begin="16s"
-               repeatCount="indefinite" />
-
-      WELCOME HOME
-    </text>
-    <!-- Glitch burst at loop end -->
-    <text id="phase5_glitch_orange" x="0" y="0" fill="#FF6A00" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;0"
-               keyTimes="0;0.5;1"
-               dur="0.4s"
-               begin="19.6s"
-               repeatCount="indefinite" />
-
-      <animate attributeName="x"
-               values="0;20;-15;10;-10;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="19.6s"
-               repeatCount="indefinite" />
-
-      <animate attributeName="y"
-               values="0;-10;10;-5;5;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="19.6s"
-               repeatCount="indefinite" />
-
-      WELCOME HOME
-    </text>
-
-    <text id="phase5_glitch_cyan" x="0" y="0" fill="#00F0FF" opacity="0">
-      <animate attributeName="opacity"
-               values="0;1;0"
-               keyTimes="0;0.5;1"
-               dur="0.4s"
-               begin="19.6s"
-               repeatCount="indefinite" />
-
-      <animate attributeName="x"
-               values="0;-20;15;-10;10;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="19.6s"
-               repeatCount="indefinite" />
-
-      <animate attributeName="y"
-               values="0;10;-10;5;-5;0"
-               keyTimes="0;0.2;0.4;0.6;0.8;1"
-               dur="0.4s"
-               begin="19.6s"
-               repeatCount="indefinite" />
-
-      WELCOME HOME
-    </text>
+  WELCOME HOME
+</text>
   </g>
-</svg>
-
-    
+<
