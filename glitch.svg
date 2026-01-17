@@ -38,7 +38,7 @@ text {
            values="0;0;-2;2;0;0"
            keyTimes="0;0.19;0.25;0.35;0.4;1" />
 
-  THURAYA
+  THURAYA PROFILE LOADED
 </text>
 
 <!-- PHASE 1 GLITCH ORANGE -->
@@ -57,7 +57,7 @@ text {
            values="0;20;-15;10;-10;0"
            keyTimes="0;0.2;0.4;0.6;0.8;1" />
 
-  THURAYA
+  THURAYA PROFILE LOADED
 </text>
 
 <!-- PHASE 1 GLITCH CYAN -->
@@ -76,7 +76,7 @@ text {
            values="0;-20;15;-10;10;0"
            keyTimes="0;0.2;0.4;0.6;0.8;1" />
 
-  THURAYA
+  THURAYA PROFILE LOADED
 </text>
 
 <!-- PHASE 2 — PROTOCOL INITIATED -->
